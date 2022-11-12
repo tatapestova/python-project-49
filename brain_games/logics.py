@@ -9,7 +9,7 @@ def start_of_game(game):
     print(f'Hello, {name}!')
     condithion_game, questhion, correct_answer = game()
     print(condithion_game)
-    index = 1 
+    index = 1
     while index <= rounds:
         condithion_game, questhion, correct_answer = game()
         print(f'Questhion: {questhion}')
@@ -23,9 +23,3 @@ Let's try again, {name}!''')
         index += 1
     if correct_answer == user_answer:
         print(f'Congratulations, {name}!')
-
-
-
-
-
-

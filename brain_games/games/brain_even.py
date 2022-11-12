@@ -9,4 +9,3 @@ def even():
     else:
         correct_answer = "no"
     return condithion_game, questhion, correct_answer
-
