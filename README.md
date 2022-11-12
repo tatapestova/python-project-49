@@ -8,5 +8,5 @@
 
 | Game | Asciinema |
 | ------ | ------ |
-| Brain-even | https://asciinema.org/a/IHKaQXwG14Eu6uwP2UAwMpcn1 |
-| Brain-calc | https://asciinema.org/a/IHKaQXwG14Eu6uwP2UAwMpcn1 |
+| Brain-even | https://asciinema.org/a/y616PGN4pRKfnqF0ZTQNjxF7D |
+| Brain-calc | https://asciinema.org/a/xXp3tJDBgyI7dxKdimj2Iqbac |
