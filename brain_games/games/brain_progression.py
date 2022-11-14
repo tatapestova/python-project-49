@@ -13,5 +13,5 @@ def progression():
     index = progression.index(random_number)
     correct_answer = str(random_number)
     progression[index] = '..'
-    questhion = ' '.join(map(str, progression))
-    return condithion_game, questhion, correct_answer
+    question = ' '.join(map(str, progression))
+    return condithion_game, question, correct_answer

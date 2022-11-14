@@ -6,7 +6,7 @@ def calc():
     random_number1 = randint(1, 100)
     random_number2 = randint(1, 100)
     random_operator = choice('-*+')
-    questhion = f'{random_number1} {random_operator} {random_number2}'
+    question = f'{random_number1} {random_operator} {random_number2}'
     subtraction = random_number1 - random_number2
     addithion = random_number1 + random_number2
     multiplication = random_number1 * random_number2
@@ -16,4 +16,4 @@ def calc():
         correct_answer = str(addithion)
     elif random_operator == '*':
         correct_answer = str(multiplication)
-    return condithion_game, questhion, correct_answer
+    return condithion_game, question, correct_answer
