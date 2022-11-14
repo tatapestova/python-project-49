@@ -2,7 +2,7 @@ from random import randint, choice
 
 
 def progression():
-    condithion_game = 'What number is missing in the progression?'
+    condithion = 'What number is missing in the progression?'
     start_number = randint(1, 100)
     finish_number = randint(100, 200)
     length = randint(5, 10)
@@ -14,4 +14,4 @@ def progression():
     correct_answer = str(random_number)
     progression[index] = '..'
     question = ' '.join(map(str, progression))
-    return condithion_game, question, correct_answer
+    return condithion, question, correct_answer

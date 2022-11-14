@@ -3,7 +3,7 @@ from math import sqrt
 
 
 def prime():
-    condithion_game = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    condithion = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     question = randint(2, 100)
     index = 2
     while index <= sqrt(question):
@@ -13,4 +13,4 @@ def prime():
         index += 1
     else:
         correct_answer = "yes"
-    return condithion_game, question, correct_answer
+    return condithion, question, correct_answer

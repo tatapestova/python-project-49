@@ -2,7 +2,7 @@ from random import randint, choice
 
 
 def calc():
-    condithion_game = 'What is the result of the expression?'
+    condithion = 'What is the result of the expression?'
     random_number1 = randint(1, 100)
     random_number2 = randint(1, 100)
     random_operator = choice('-*+')
@@ -16,4 +16,4 @@ def calc():
         correct_answer = str(addithion)
     elif random_operator == '*':
         correct_answer = str(multiplication)
-    return condithion_game, question, correct_answer
+    return condithion, question, correct_answer
