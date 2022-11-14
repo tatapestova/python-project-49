@@ -4,7 +4,7 @@ from math import sqrt
 
 def prime():
     condithion_game = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    question = randint(1, 100)
+    question = randint(2, 100)
     index = 2
     while index <= sqrt(question):
         if question % index == 0:
