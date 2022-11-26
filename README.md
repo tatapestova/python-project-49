@@ -7,7 +7,7 @@
 **"BRAIN GAMES"** is a set of five console games based on popular mobile brain training apps. Every game starts with a welcome set and game-questions. The game is considered to be completed after **3 correct answers**. If the user gives a wrong answer the game is end. 
 
 
-*### Install
+### Install
 ```
 git clone https://github.com/tatapestova/python-project-49
 ```
