@@ -6,6 +6,20 @@
 
 **"BRAIN GAMES"** is a set of five console games based on popular mobile brain training apps. Every game starts with a welcome set and game-questions. The game is considered to be completed after **3 correct answers**. If the user gives a wrong answer the game is end. 
 
+
+*### Install
+```
+git clone https://github.com/tatapestova/python-project-49
+```
+```
+pip install --user git+https://github.com/tatapestova/python-project-49
+```
+
+### Used utilities
+Python : 3.8  
+Library prompt: 0.4.1
+
+
 ### GAME "IS EVEN?"
 
 A random number is shown. The user needs to answer "yes" if the number is even or "no" if it's odd. 

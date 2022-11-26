@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
-authors = ["hextet <info@hexlet.io>"]
+description = "BRAIN GAMES is a set of five console games based on popular mobile brain training apps."
+repository = "https://github.com/tatapestova/python-project-49"
+authors = ["Tata Pestova <tata.pestova@inbox.ru>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },

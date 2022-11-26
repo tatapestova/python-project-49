@@ -2,7 +2,7 @@ from random import randint, choice
 
 
 def progression():
-    condithion = 'What number is missing in the progression?'
+    condition = 'What number is missing in the progression?'
     start_number = randint(1, 100)
     finish_number = randint(100, 200)
     length = randint(5, 10)
@@ -11,7 +11,7 @@ def progression():
     progression = list_[:length]
     random_number = choice(progression)
     index = progression.index(random_number)
-    correct_answer = str(random_number)
+    correct = str(random_number)
     progression[index] = '..'
     question = ' '.join(map(str, progression))
-    return condithion, question, correct_answer
+    return condition, question, correct
