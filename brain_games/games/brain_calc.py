@@ -1,8 +1,10 @@
 from random import randint, choice
 
 
-def calc():
-    condition = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
+
+
+def generate_round():
     random_number1 = randint(1, 100)
     random_number2 = randint(1, 100)
     random_operator = choice('-*+')
@@ -16,4 +18,4 @@ def calc():
     elif random_operator == '*':
         multiplication = random_number1 * random_number2
         correct = str(multiplication)
-    return condition, question, correct
+    return question, correct

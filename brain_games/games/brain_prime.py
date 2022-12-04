@@ -2,15 +2,24 @@ from random import randint
 from math import sqrt
 
 
-def prime():
-    condition = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    question = randint(2, 100)
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+
+def prime(number):
     index = 2
-    while index <= sqrt(question):
-        if question % index == 0:
-            correct = "no"
-            break
+    while index <= sqrt(number):
+        if number % index == 0:
+            return False
         index += 1
     else:
-        correct = "yes"
-    return condition, question, correct
+        return True
+
+
+def generate_round():
+    question = randint(2, 100)
+    result = prime(question)
+    if result is False:
+        correct = 'no'
+    else:
+        correct = 'yes'
+    return question, correct

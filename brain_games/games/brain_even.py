@@ -1,11 +1,13 @@
 from random import randint
 
 
-def even():
-    condition = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
+def generate_round():
     question = randint(1, 100)
     if question % 2 == 0:
         correct = "yes"
     else:
         correct = "no"
-    return condition, question, correct
+    return question, correct

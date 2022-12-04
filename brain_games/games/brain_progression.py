@@ -1,8 +1,10 @@
 from random import randint, choice
 
 
-def progression():
-    condition = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
+
+
+def generate_round():
     start_number = randint(1, 100)
     finish_number = randint(100, 200)
     length = randint(5, 10)
@@ -14,4 +16,4 @@ def progression():
     correct = str(random_number)
     progression[index] = '..'
     question = ' '.join(map(str, progression))
-    return condition, question, correct
+    return question, correct

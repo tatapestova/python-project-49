@@ -7,11 +7,10 @@ def start_of_game(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    condition, question, correct = game()
-    print(condition)
+    print(game.DESCRIPTION)
     index = 1
     while index <= MAX_ROUNDS:
-        condition, question, correct = game()
+        question, correct = game.generate_round()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
         if user_answer == correct:
